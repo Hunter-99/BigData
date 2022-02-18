@@ -1,0 +1,10 @@
+pandas
+numpy
+sqlalchemy
+duckdb
+nycflights13
+fastparquet
+pyarrow
+tqdm
+contextlib
+duckdb-engine
