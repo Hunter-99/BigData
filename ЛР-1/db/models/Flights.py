@@ -3,10 +3,10 @@ from db.base import Base
 
 
 class Flights(Base):  # type: ignore
-
+    supports_statement_cache = True
     __tablename__ = "flights"
 
-    id = Column(Integer, Sequence("flights_id_sequence"), primary_key=True)
+    index = Column(Integer, Sequence("flights_id_sequence"), primary_key=True)
     year = Column(Integer, nullable=True)
     month = Column(Integer, nullable=True)
     day = Column(Integer, nullable=True)
@@ -26,4 +26,3 @@ class Flights(Base):  # type: ignore
     hour = Column(Integer, nullable=True)
     minute = Column(Integer, nullable=True)
     time_hour = Column(TIMESTAMP, nullable=True)
-

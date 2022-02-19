@@ -6,3 +6,4 @@ engine = create_engine("duckdb:///:memory:")
 metadata = MetaData(bind=engine)
 Base = declarative_base(metadata=metadata)
 
+
