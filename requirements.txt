@@ -6,6 +6,7 @@ nycflights13
 fastparquet
 pyarrow
 tqdm
-contextlib
 duckdb-engine
-timeit
+sklearn
+matplotlib
+daal

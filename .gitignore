@@ -2,3 +2,4 @@
 venv/
 __pycache__/
 fligths.parquet
+.ipynb_checkpoints/
